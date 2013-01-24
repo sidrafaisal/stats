@@ -1,0 +1,30 @@
+
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xml:base="http://www.animals.fake/animals#">
+
+<rdf:Description rdf:ID="animal">
+  <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+<rdf:Description rdf:ID="bird">
+  <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:ID="horse">
+  <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdfs:subClassOf rdf:resource="#animal"/>
+</rdf:Description>
+<rdf:Description rdf:ID="horse1">
+  <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>  <rdfs:subClassOf rdf:resource="#horse"/>
+
+  <rdfs:subClassOf rdf:resource="#animal"/>
+</rdf:Description>
+<rdf:Description rdf:ID="horse1">
+  <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>  
+   
+  <rdfs:subClassOf rdf:resource="#bird"/>
+</rdf:Description>
+
+</rdf:RDF> 

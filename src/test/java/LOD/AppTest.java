@@ -36,6 +36,12 @@ public class AppTest
      */
     public void testApp()
     {
+    	
+    //	App mypp = new App(filelocation1);
+    //	assertTrue(myapp.getTripleCount()= 2005);
+    	
+    	
+    	
      //   App app = new App("demo.ttl");
        // List<String> hellos = app.queryForPropertyValues(RDFS.label);
         

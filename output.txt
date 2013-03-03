@@ -27,13 +27,13 @@ SameAs [0]
 Data Quality
 
 Interpretability: 1
-Understandability: 1.0
+Understandability: 0.0
 AmountofData: 
-Indicator_triples 0.0
+Indicator_triples 0.25
 Indicator_ExternalLinks 0.0
 Indicator_ScopeofData 0.0
 Indicator_LevelofDetail 0.0
-Interlinking: 517
+Interlinking: 27205
 Verifiability: 0.0
 Provenance: 1
 Licensing: 0
